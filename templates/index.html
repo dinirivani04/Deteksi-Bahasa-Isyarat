@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BISINDO DETECTION</title>
+
+```
+<link rel="stylesheet"
+href="{{ url_for('static',
+filename='style.css') }}">
+```
+
+</head>
+
+<body>
+
+<div class="container">
+
+```
+<div class="header">
+
+    <h1>
+        BISINDO DETECTION
+    </h1>
+
+    <div class="status">
+
+        <span></span>
+
+        Kamera Aktif
+
+    </div>
+
+</div>
+
+<div class="content">
+
+    <div class="camera">
+
+        <img
+        src="{{ url_for('video') }}">
+
+    </div>
+
+    <div class="sidebar">
+
+        <div class="card result-card">
+
+            <h2>
+                Hasil Deteksi
+            </h2>
+
+            <h1 id="hasil">
+                -
+            </h1>
+
+        </div>
+
+        <div class="card accuracy-card">
+
+            <h2>
+                Akurasi Prediksi
+            </h2>
+
+            <div class="progress">
+
+                <div
+                id="akurasiBar"
+                class="progress-bar">
+
+                    0%
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+</div>
+
+<script>
+
+function updateData(){
+
+    fetch("/data")
+
+    .then(response => response.json())
+
+    .then(data => {
+
+        let hasil =
+        document.getElementById("hasil");
+
+        let bar =
+        document.getElementById(
+            "akurasiBar"
+        );
+
+        if(data.hasil === "" ||
+            data.hasil === null ||
+            data.hasil === "Tidak terdeteksi"){
+
+            hasil.innerHTML = "-";
+
+            bar.style.width = "0%";
+
+            bar.innerHTML = "0%";
+
+            bar.style.background =
+            "#64748b";
+        }
+
+        else{
+
+            hasil.innerHTML =
+            data.hasil;
+
+            bar.style.width =
+            data.akurasi + "%";
+
+            bar.innerHTML =
+            data.akurasi.toFixed(1) + "%";
+
+            if(data.akurasi >= 80){
+
+                bar.style.background =
+                "#22c55e";
+
+            }
+
+            else if(
+                data.akurasi >= 60
+            ){
+
+                bar.style.background =
+                "#f59e0b";
+
+            }
+
+            else{
+
+                bar.style.background =
+                "#ef4444";
+
+            }
+
+        }
+
+    });
+
+}
+
+setInterval(
+    updateData,
+    300
+);
+
+</script>
+
+</body>
+
+</html>
