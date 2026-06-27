@@ -43,11 +43,12 @@ Library
 
 ## 📂 Struktur Proyek
 
+```text
 Bisindo_bahasa_Isyarat/
 ├── dataset/
-│   ├── Huruf/
-│   ├── Angka/
-│   └── Kata/
+│   ├── huruf/
+│   ├── angka/
+│   └── kata/
 │
 ├── static/
 │   └── style.css
@@ -59,6 +60,7 @@ Bisindo_bahasa_Isyarat/
 ├── detect.py
 ├── train_model.py
 └── model.pkl
+```
 
 ## Kategori Dataset
 Huruf
