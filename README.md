@@ -134,6 +134,7 @@ Nim  : 2023573010012
 **Mata Kuliah:** Computer Vision
 
 **Tahun Akademik:** 2025/2026
+
 Video demo tampilan dapat dilihat pada youtube dibawah ini
 
 https://youtu.be/AYVFJl8Wag0?si=lcFI6sewqzM70JAq 
