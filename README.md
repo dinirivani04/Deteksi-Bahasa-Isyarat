@@ -92,6 +92,7 @@ dataset/
 - 0–9 (10 kelas)
   
 **Kata BISINDO**
+
 (5 kelas)
 - Kenapa
 - Malu
