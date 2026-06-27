@@ -76,7 +76,7 @@ Bisindo_Bahasa_Isyarat/
 - Besok
 - Membaca
 
-# 🚀 Instalasi
+## 🚀 Instalasi
 
 Clone repository
 
@@ -96,7 +96,7 @@ Install dependency
 pip install -r requirements.txt
 ```
 
-# 🧠 Training Model
+## 🧠 Training Model
 
 ```
 python train_model.py
@@ -108,7 +108,7 @@ Model hasil training akan disimpan menjadi
 model.pkl
 ```
 
-# 📈 Hasil Sistem
+## 📈 Hasil Sistem
 
 Model mampu mengenali gesture bahasa isyarat Indonesia berdasarkan landmark tangan yang diperoleh dari MediaPipe Hands.
 
@@ -119,7 +119,7 @@ Output sistem meliputi:
 - Tampilan hasil secara real-time
 - Streaming video melalui browser
 
-# 👩‍💻 Pengembang
+## 👩‍💻 Pengembang
 
 **Nama :** Dini Rivani
 
@@ -139,6 +139,6 @@ Video demo tampilan dapat dilihat pada youtube dibawah ini
 
 https://youtu.be/AYVFJl8Wag0?si=lcFI6sewqzM70JAq 
 
-# 📄 Lisensi
+## 📄 Lisensi
 
 Project ini dibuat untuk keperluan pembelajaran, penelitian, dan tugas akademik pada Program Studi Teknik Informatika Politeknik Negeri Lhokseumawe. Dataset yang digunakan merupakan dataset dari kagle dan dataset pribadi yang dikumpulkan secara mandiri menggunakan webcam.
