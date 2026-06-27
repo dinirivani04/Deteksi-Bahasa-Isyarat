@@ -63,7 +63,7 @@ Bisindo_Bahasa_Isyarat/
 ```
 
 ## 📊 Dataset
-Dataset (43 kelas: huruf A-Z, angka 0-9, dan 5 kata isyarat) tersedia di google drive https://drive.google.com/drive/folders/1WC7VNRV1xNMGwEqoYjkYqDOTo3Q_jFKR?usp=drive_link
+Dataset (41 kelas: huruf A-Z, angka 0-9, dan 5 kata isyarat) tersedia di google drive https://drive.google.com/drive/folders/1WC7VNRV1xNMGwEqoYjkYqDOTo3Q_jFKR?usp=drive_link
 
 caranya:
 
@@ -80,7 +80,7 @@ dataset/
 │   └── B/
 ├── kata/
 │   ├── besok/
-│   └── kakak/
+    └── kakak/
 ```
 3. Jalankan train_model.py setelah dataset siap untuk menghasilkan model sendiri.
 
@@ -92,6 +92,7 @@ dataset/
 - 0–9 (10 kelas)
   
 **Kata BISINDO**
+(5 kelas)
 - Kenapa
 - Malu
 - Kakak
