@@ -18,7 +18,7 @@ Model MLP yang telah dilatih menggunakan dataset gesture BISINDO mampu melakukan
 
 ## Teknologi yang Digunakan
 
-# Bahasa Pemrograman
+## Bahasa Pemrograman
 - Python 
 
 ## Computer Vision
@@ -48,6 +48,7 @@ Model MLP yang telah dilatih menggunakan dataset gesture BISINDO mampu melakukan
 - Joblib
 
 ## 📂 Struktur Proyek
+
 Bisindo_bahasa_Isyarat/
 ├── dataset/
 │   ├── Huruf/
