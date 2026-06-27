@@ -62,6 +62,9 @@ Bisindo_Bahasa_Isyarat/
 └── model.pkl
 ```
 
+## Dataset
+Dataset (43 kelas: huruf A-Z, angka 0-9, dan 5 kata isyarat) tersedia di google drive https://drive.google.com/drive/folders/1WC7VNRV1xNMGwEqoYjkYqDOTo3Q_jFKR?usp=drive_link
+
 ## Kategori Dataset
 **Huruf**
 - A–Z (26 kelas)
