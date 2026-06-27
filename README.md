@@ -62,8 +62,27 @@ Bisindo_Bahasa_Isyarat/
 └── model.pkl
 ```
 
-## Dataset
+## 📊 Dataset
 Dataset (43 kelas: huruf A-Z, angka 0-9, dan 5 kata isyarat) tersedia di google drive https://drive.google.com/drive/folders/1WC7VNRV1xNMGwEqoYjkYqDOTo3Q_jFKR?usp=drive_link
+
+caranya:
+
+1. Download dan extract isi dataset dari link di atas.
+2. Letakkan dengan struktur folder berikut:
+```
+dataset/
+
+├── angka/
+│   ├── 1/
+│   └── 2/
+├── huruf/
+│   ├── A/
+│   └── B/
+├── kata/
+│   ├── besok/
+│   └── kakak/
+```
+3. Jalankan train.py setelah dataset siap untuk menghasilkan model sendiri.
 
 ## Kategori Dataset
 **Huruf**
