@@ -1,4 +1,4 @@
-# Deteksi Bahasa Isyarat Indonesi (BISINDO)
+# Deteksi Bahasa Isyarat (BISINDO)
 
 ## 📖  Deskripsi
 Deteksi Bahasa Isyarat Indonesia (BISINDO) merupakan aplikasi berbasis **Computer Vision** dan **Machine Learning** yang dikembangkan untuk mengenali gesture bahasa isyarat Indonesia secara **real-time** menggunakan kamera (webcam). Sistem ini memanfaatkan **MediaPipe Hands** untuk mendeteksi tangan dan mengekstraksi 21 titik landmark pada setiap tangan. Landmark tersebut selanjutnya diproses menjadi data numerik melalui proses normalisasi sehingga menghasilkan fitur yang digunakan sebagai input bagi model **Multi-Layer Perceptron (MLP)**.
