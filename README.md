@@ -78,15 +78,21 @@ Kata BISINDO
 
 Clone repository
 
-git clone https://github.com/dinirivani04/Deteksi-Bahasa-Isyarat.git 
+```
+git clone https://github.com/dinirivani04/Deteksi-Bahasa-Isyarat.git
+```
 
-Masuk ke folder project:
+Masuk ke folder project
 
+```
 cd Deteksi-Bahasa-Isyarat
+```
 
 Install dependency
 
+```
 pip install -r requirements.txt
+```
 
 # 🧠 Training Model
 
