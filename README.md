@@ -68,11 +68,11 @@ Angka
 - 0–9 (10 kelas)
   
 Kata BISINDO
-Kenapa
-Malu
-Kakak
-Besok
-Membaca
+- Kenapa
+- Malu
+- Kakak
+- Besok
+- Membaca
 
 # 🚀 Instalasi
 
