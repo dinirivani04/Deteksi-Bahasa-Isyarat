@@ -122,17 +122,11 @@ Output sistem meliputi:
 ## 👩‍💻 Pengembang
 
 **Nama :** Dini Rivani
-
-**Nim  :** 2023573010012
-
-**Program Studi:** Teknik Informatika
-
-**Jurusan:** Teknologi Informasi dan Komputer
-
+**Nim :** 2023573010012
+**Mahasiswa :** Teknik Informatika
+**Jurusan :** Teknologi Informasi dan Komputer
 **Politeknik Negeri Lhokseumawe**
-
 **Mata Kuliah:** Computer Vision
-
 **Tahun Akademik:** 2025/2026
 
 Video demo tampilan dapat dilihat pada youtube dibawah ini
