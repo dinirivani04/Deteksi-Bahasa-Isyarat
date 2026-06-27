@@ -44,7 +44,7 @@ Library
 ## 📂 Struktur Proyek
 
 ```text
-Bisindo_bahasa_Isyarat/
+Bisindo_Bahasa_Isyarat/
 ├── dataset/
 │   ├── huruf/
 │   ├── angka/
