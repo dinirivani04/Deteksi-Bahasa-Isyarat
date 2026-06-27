@@ -18,26 +18,26 @@ Model MLP yang telah dilatih menggunakan dataset gesture BISINDO mampu melakukan
 
 ## Teknologi yang Digunakan
 
-Bahasa Pemrograman
+**Bahasa Pemrograman**
 - Python 
 
-Computer Vision
+**Computer Vision**
 - OpenCV
 - MediaPipe Hands
 
-Machine Learning
+**Machine Learning**
 - Scikit-Learn
 - Multi-Layer Perceptron (MLP)
 
-Framework
+**Framework**
 - Flask
 
-Frontend
+**Frontend**
 - HTML5
 - CSS3
 - JavaScript (Fetch API)
 
-Library
+**Library**
 - NumPy
 - Joblib
 
@@ -63,13 +63,13 @@ Bisindo_Bahasa_Isyarat/
 ```
 
 ## Kategori Dataset
-Huruf
+**Huruf**
 - A–Z (26 kelas)
   
-Angka
+**Angka**
 - 0–9 (10 kelas)
   
-Kata BISINDO
+**Kata BISINDO**
 - Kenapa
 - Malu
 - Kakak
@@ -121,9 +121,9 @@ Output sistem meliputi:
 
 # 👩‍💻 Pengembang
 
-Nama : Dini Rivani
+**Nama :** Dini Rivani
 
-Nim  : 2023573010012
+**Nim  :** 2023573010012
 
 **Program Studi:** Teknik Informatika
 
@@ -141,6 +141,4 @@ https://youtu.be/AYVFJl8Wag0?si=lcFI6sewqzM70JAq
 
 # 📄 Lisensi
 
-Project ini dibuat untuk keperluan pembelajaran, penelitian, dan tugas akademik pada Program Studi Teknik Informatika Politeknik Negeri Lhokseumawe.
-
-Dataset yang digunakan merupakan dataset dari kagle dan dataset pribadi yang dikumpulkan secara mandiri menggunakan webcam.
+Project ini dibuat untuk keperluan pembelajaran, penelitian, dan tugas akademik pada Program Studi Teknik Informatika Politeknik Negeri Lhokseumawe. Dataset yang digunakan merupakan dataset dari kagle dan dataset pribadi yang dikumpulkan secara mandiri menggunakan webcam.
