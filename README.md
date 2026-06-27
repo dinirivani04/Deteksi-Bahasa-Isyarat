@@ -82,7 +82,7 @@ dataset/
 │   ├── besok/
 │   └── kakak/
 ```
-3. Jalankan train.py setelah dataset siap untuk menghasilkan model sendiri.
+3. Jalankan train_model.py setelah dataset siap untuk menghasilkan model sendiri.
 
 ## Kategori Dataset
 **Huruf**
